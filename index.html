@@ -11,8 +11,12 @@
 </head>
 <body>
     <div class="container">
-    <header>
+        <header>
         <h1>Your AI Poem Generator</h1>
+        <footer>
+            This AI project was coded by
+            <a href="https://github.com/Emmily0" target="_blank">Emily Berner</a> and is open-sourced on <a href="https://github.com/Emmily0/english-AI-poem-generator_EB_12.2024" target="_blank">GitHub</a> and hosted on <a href="https://english-ai-poem-generator-eb-122024.netlify.app/" target="_blank">Netlify.</a>
+        </footer>
     </header>
 
     <main>
@@ -21,14 +25,14 @@
             <input 
             type="text" 
             id="instructions"
-            placeholder="Enter the Poem's Topic"
+            placeholder="Enter your Poem's Topic"
             class="instructions"
             required
             autocomplete="off"
             />
         <input type="submit" value="Generate Poem" class="submit-button" id="submit-button"/>
         </form>
-        <div class="hint">i.e: Love, London, Tea</div>
+        <div class="hint">i.e Topic: Love, London, Tea</div>
     </div>
 
     <div class="poem-container">    
@@ -45,10 +49,7 @@
     </main>
 </div>
     
-    <footer>
-        This AI project was coded by
-        <a href="https://github.com/Emmily0" target="_blank">Emily Berner</a> and is open-sourced on <a href="https://github.com/Emmily0/english-AI-poem-generator_EB_12.2024" target="_blank">GitHub</a> and hosted on <a href="https://english-ai-poem-generator-eb-122024.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+
     <script src="src/index.js"></script>
 </body>
 </html>
