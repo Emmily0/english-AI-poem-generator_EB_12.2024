@@ -1,0 +1,82 @@
+body {
+    background-color: #fffcfc;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #11bfb1;;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.form-container {
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+}
+
+form {
+    display: flex;
+}
+
+.instructions {
+    background-color: #fff2f2;
+    border: none;
+    border-radius: 30px;
+    width: 80%;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 15px 24px;
+    color: #f8797a;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+input::placeholder {
+    color: #f8797a;
+}
+
+.submit-button {
+    background: #f8797a;
+    padding: 15px 24px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.hint {
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: 20px;
+    font-family: "Roboto";
+    font-weight: 200;
+}
+
+.poem {
+    font-size: 20px;
+    font-style: italic;
+    padding: 30px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+    border-left: 3px solid #f8797a;
+    background-color: white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-family: "EB Garamond";
+    font-weight: 500;
+}
