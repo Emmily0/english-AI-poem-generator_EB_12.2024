@@ -104,3 +104,26 @@ input::placeholder {
 .poem strong {
     color: #f8797a;
 }
+
+.hidden{
+    display: none;
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 200;
+}
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+    
