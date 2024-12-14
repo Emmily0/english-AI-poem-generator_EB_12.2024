@@ -100,3 +100,7 @@ input::placeholder {
     font-family: "EB Garamond";
     font-weight: 500;
 }
+
+.poem strong {
+    color: #f8797a;
+}
